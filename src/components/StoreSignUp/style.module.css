@@ -1,0 +1,68 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); */
+.leftContainer {
+      width: 20%;
+      background-color: #ffffff73;
+      height: 100%;
+      margin: 2vh;
+      /* margin-top: 2vh; */
+      border-radius: 15px;
+      float: left;
+
+}
+
+.menus {
+      flex-direction: column;
+      list-style: none;
+      padding: inherit;
+      font-family: 'Montserrat Alternates';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 45px;
+      letter-spacing: 0.005em;
+      margin-top: 25px;
+}
+
+.rightContainer {
+      width: 76%;
+      background-color: #ffffff73;
+      height: 100%;
+      margin: 2vh;
+      padding: 10vh;
+      margin-left: 1.5vh;
+      border-radius: 15px;
+      float: right;
+      align-items: center;
+      font-family: 'Montserrat Alternates';
+}
+
+.btn {
+
+      margin: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      background-color: #42FC24;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 10px;
+}
+
+.mobNo, .name, .address, .pincode{
+      padding: 5px;
+      padding-right: 126px;
+      margin: 10px;
+      border-radius: 8px;
+      
+}
+
+.error_msg {
+      width: 370px;
+      padding: 15px;
+      margin: 5px 0;
+      font-size: 14px;
+      background-color: #f34646;
+      color: white;
+      border-radius: 5px;
+      text-align: center;
+}
